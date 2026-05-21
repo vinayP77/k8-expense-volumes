@@ -71,7 +71,7 @@ spec:
   volumeClaimTemplates:
   - metadata:
       name: mysql
-      namespace: expense
+    #  namespace: expense
     spec:
       accessModes: [ "ReadWriteOnce" ]
       storageClassName: "expense-ebs"
