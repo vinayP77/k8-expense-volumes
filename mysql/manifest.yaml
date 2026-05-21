@@ -63,7 +63,7 @@ spec:
       terminationGracePeriodSeconds: 10
       containers:
       - name: mysql
-        image: vinayp77/mysql:1.0.
+        image: vinayp77/mysql:1.0
         volumeMounts:
         - name: mysql
           mountPath: /var/lib/mysql
